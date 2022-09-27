@@ -2,7 +2,7 @@ import requests
 
 url = "https://v2.alapi.cn/api/zaobao"
 
-payload = "token= xxxxx &format=json" //tohen需注册alapi账号获得
+payload = "token= xxxxx &format=json" #tohen需注册alapi账号获得
 headers = {'Content-Type': "application/x-www-form-urlencoded"}
 
 response = requests.request("POST", url, data=payload, headers=headers)
